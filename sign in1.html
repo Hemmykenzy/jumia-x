@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+   <form action="index.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <a href="index.html">  <input type="submit" value="Register"></a>
+    </form>
+
+
+<script>
+
+<?php
+// Establish connection to MySQL database
+$servername = "localhost";
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Retrieve user input from HTML form
+$username = $_POST['username'];
+$password = $_POST['password'];
+$email = $_POST['email'];
+
+// Hash and salt the password for security
+$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+// SQL query to insert user data into MySQL database
+$sql = "INSERT INTO users (username, password, email) VALUES ('$username', '$hashed_password', '$email')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
+</script>
+
+</body>
+</html>

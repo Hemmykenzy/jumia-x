@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <style type="text/css">
+
+           
+       
+
+
+* {
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+      display: grid;
+      grid-template-columns: 305px 1fr;
+      gap: 10px;
+      margin: 0 auto;
+      padding: 10px;
+      max-width: 1400px;
+      min-height: 100vh;
+  }
+
+  aside,
+  main {
+      border: 1px solid grey;
+      padding: 20px;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      text-align: center;
+  }
+
+
+ 
+        </style>
+    </head>
+
+
+
+
+
+    <body>
+       <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+        <a href="index.html"><img src="images/h2.jpg" width="30px"
+            height="30px" align="right"/></a>
+            <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+            <a href="Sign In.html"> <img src="images/pers.jpg" width="30px" height="30px" align="right"/> </a>
+        <img src="images/jm3.jpg" width="450" height="90" /><center> <h2>SHOPPING CART</h2></center>
+       <center> <h3>Supermarket</h3></center>
+      
+       
+       
+        <div class="container">
+            <aside>
+                <aside>
+                    <h2>Product Basket</h2>
+                    <ul id="cart"></ul>
+                    <div id="total">Total Amount: ₦0</div><br>
+                    <center><a href="CART.html? item1=ID1&quantity1=2&amount1=20&item2=ID2&quantity2=1&amount2=15">
+                        <button>Checkout</button></a></center>
+
+                </aside>
+            </aside>
+            <main>
+                <div class="cards">
+                    <div class="card" id="ite">
+                        <img src="supermarket/1.jpg" width="200" height="200" >
+                        <h4>Nestle Golden Morn</h4>
+                        <p><mark></span>₦<span class="price">2880</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea Android 12">
+                        <img src="supermarket/2.jpg" width="200" height="200" alt="Cidea Android 12">
+                        <h4>Jameson Irish Whiskey</h4>
+                        <p><mark></span>₦<span class="price">19450</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone XR" >
+                        <img src="supermarket/3.jpg" width="200" height="200" alt="Apple IPhone XR">
+                        <h4>Rexona Women Antibacteria</h4>
+                        <p><mark></span>₦<span class="price">9760</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Spark 20">
+                        <img src="supermarket/4.jpg" width="200" height="200" alt="Tecno Spark 20"><br><p></p>
+                        <h4>Pringles Original Potato Crisps</h4>
+                        <p><mark></span>₦<span class="price">5050</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div> 
+                    <div class="card" Cidea 8>
+                        <img src="supermarket/5.jpg" width="200" height="200" >
+                        <h4>Indomie Regular Chicken Flavour</h4>
+                        <p><mark></span>₦<span class="price">9000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea 8">
+                        <img src="supermarket/6.jpg" width="200" height="200" a>
+                        <h4>Indomie Jollof Chicken Flavour</h4>
+                        <p><mark></span>₦<span class="price">8100</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="IPhone 6">
+                        <img src="supermarket/7.jpg" width="200" height="200" >
+                        <h4>Big Bull Rice</h4>
+                        <p><mark></span>₦<span class="price">1550</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 11">
+                        <img src="supermarket/8.jpg" width="200" height="200">
+                        <h4>Indomie Regular Chicken Flavour</h4>
+                        <p><mark></span>₦<span class="price">9000</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Cidea C idea">
+                        <img src="supermarket/9.jpg" width="200" height="200">
+                        <h4>Hollandia Yoghurt</h4>
+                        <p><mark></span>₦<span class="price">14550</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Pop 8">
+                        <img src="supermarket/10.jpg" width="200" height="200" >
+                        <h4>Dano Slim Sachet</h4>
+                        <p><mark></span>₦<span class="price">10400</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple Iphone 13 Pro Max">
+                        <img src="supermarket/11.jpg" width="200" height="200" >
+                        <h4>Martell Cognac Blue Swift</h4>
+                        <p><mark></span>₦<span class="price">74100</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea Adult 7">
+                        <img src="supermarket/12.jpg" width="200" height="200" >
+                        <h4>Air Freshener</h4>
+                        <p><mark></span>₦<span class="price">390</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Discover Note 9 Plus">
+                        <img src="supermarket/13.jpg" width="200" height="200" >
+                        <h4>Orzo Pasta</h4>
+                        <p><mark></span>₦<span class="price">13999</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Z Fold">
+                        <img src="supermarket/14.jpg" width="200" height="200" >
+                        <h4>Vegetable Oil</h4>
+                        <p><mark></span>₦<span class="price">10500</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel It 5606">
+                        <img src="supermarket/15.jpg" width="200" height="200" >
+                        <h4>Orzo Pasta</h4>
+                        <p><mark></span>₦<span class="price">54000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="XIAOMI Redmi Note 13">
+                        <img src="supermarket/16.jpg" width="200" height="200" >
+                        <h4>Tiger Nutmeg Seed</h4>
+                        <p><mark></span>₦<span class="price">12610</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Note 20">
+                        <img src="supermarket/17.jpg" width="200" height="200" >
+                        <h4>Fanta Drink</h4>
+                        <p><mark></span>₦<span class="price">3575</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel S24" >
+                        <img src="supermarket/18.jpg" width="200" height="200" >
+                        <h4>North Bay Wild Rice</h4>
+                        <p><mark></span>₦<span class="price">12500</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 15 Pro Max">
+                        <img src="supermarket/19.jpg" width="200" height="200" >
+                        <h4>Mama's Pride Rice</h4>
+                        <p><mark></span>₦<span class="price">94490</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="supermarket/20.jpg" width="200" height="200" >
+                        <h4>Disaar Vitamin C</h4>
+                        <p><mark></span>₦<span class="price">3500</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+    
+    
+            </main>
+        </div>
+        
+        <center><a href="#"><h2>BACK TO TOP</h2></a></center>
+            
+
+
+        <script>
+
+const cards = document.querySelectorAll('.card');
+        const cart = document.getElementById('cart');
+        const totalElement = document.getElementById('total'); 
+        const selectedItems = {};
+
+        function handleCardClick(event) {
+            const card = event.currentTarget;
+            const itemId = card.id;
+            const itemName = card.querySelector('h4').textContent;
+            const itemPrice = parseFloat(card.querySelector('.price').textContent); 
+
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            } else {
+                selectedItems[itemId] = {
+                    name: itemName,
+                    price: itemPrice,
+                    count: 1,
+                };
+            }
+
+            updateCart();
+        }
+
+        function updateCart() {
+            cart.innerHTML = '';
+            let total = 0; 
+
+            for (const itemId in selectedItems) {
+                const item = selectedItems[itemId];
+                const listItem = document.createElement('li');
+                const quantityContainer = document.createElement('div'); 
+                const quantityText = document.createElement('span'); 
+                const addButton = document.createElement('button');
+                const subtractButton = document.createElement('button');
+
+                addButton.textContent = '+';
+                subtractButton.textContent = '-';
+
+                quantityText.textContent = item.count; 
+
+                addButton.addEventListener('click', () => {
+                    addItem(itemId);
+                });
+
+                subtractButton.addEventListener('click', () => {
+                    removeItem(itemId);
+                });
+
+                const hr = document.createElement('hr');
+
+                quantityContainer.appendChild(subtractButton); 
+                quantityContainer.appendChild(quantityText); 
+                quantityContainer.appendChild(addButton); 
+                quantityContainer.appendChild(hr); 
+
+                listItem.textContent = `${item.name} - ₦${item.price * item.count}`;
+                listItem.appendChild(quantityContainer); 
+                cart.appendChild(listItem);
+
+                total += item.price * item.count; 
+            }
+
+            totalElement.textContent = `Total Amount: ₦${total.toFixed(2)}`; 
+        }
+
+        function addItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            }
+            updateCart();
+        }
+
+        function removeItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count--;
+                if (selectedItems[itemId].count <= 0) {
+                    delete selectedItems[itemId];
+                }
+            }
+            updateCart();
+        }
+
+        cards.forEach((card) => {
+            card.addEventListener('click', handleCardClick);
+        });
+
+
+
+
+      
+
+        </script>
+    </body>
+</html>

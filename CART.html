@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CART PAGE</title>
+
+        <style type="text/css">
+
+body {
+            background-image: url(images/JMSHOPBG.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font color: red;
+        }
+
+        
+
+        </style>
+
+    </head>
+    <body>
+        <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+        <a href="index.html"><img src="images/h2.jpg" width="30px"
+            height="30px" align="right"/></a>
+            <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+            <a href="Sign In.html"> <img src="images/pers.jpg" width="30px" height="30px" align="right"/> </a>
+        <img src="images/jm3b.jpg" width="390" height="90" /><center>
+
+
+            <h3>Please ensure products have been added to cart first.</h3>
+
+           <center> <form action="paymenta.html" method="GET">
+            Location <select id="sample">
+                <option value="Surulere">Surulere</option>
+                <option value="Ikeja">Ikeja</option>
+                <option value="Lagos Island">Lagos Island</option>
+                <option value="Yaba">Yaba</option>
+                <option value="Lekki">Lekki</option>
+                <option value="Aja">Aja</option>
+                <option value="Agege">Agege</option>
+                <option value="Apapa">Apapa</option>
+                <option value="Epe">Epe</option>
+                <option value="Mushin">Mushin</option>
+            </select>
+
+
+        <table style="width: 30%;  border: 2px solid black; padding: 3px; margin: 0; colspan: 5px;">
+
+            <thead>
+                <tr>
+                    <th><center>CHECKOUT FORM</center></th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Name      <input type="text" name="name" placeholder="John Esther"/></td>
+                <td>Phone Number<input type="text" name="phone" placeholder="+2348256797536"/></td>
+              
+            </tr>
+            <tr>
+                <td>Email Address<input type="text" name="Email" placeholder="emmy101@gnail.com"/></td>
+                <td>Home Address   </Address><input type="text" name="location" placeholder="No. 11 Adeosun street"/></td>
+             
+            </tr>
+            <tr>
+                <td>Items/Quantity<input type="text" name="items" placeholder="E.g Cidea 8(1), Iphone 6(2)"/></td>
+                <td>Total Items Amount <input type="text" name="amount" placeholder="60000"/></td>
+            </tr>
+            </tbody>
+        </table><br>
+        <input type="submit"/>
+<br> <p></p> <p></p> <p></p> <p></p>
+       
+
+
+
+            </form></center>
+
+            <script>
+                // Parse URL parameters
+                const urlParams = new URLSearchParams(window.location.search);
+                const item1 = urlParams.get('item1');
+                const quantity1 = urlParams.get('quantity1');
+                const amount1 = urlParams.get('amount1');
+                // Retrieve other items similarly
+            
+                // Display cart items, quantities, and amounts
+                document.getElementById('item1').innerText = item1;
+                document.getElementById('quantity1').innerText = quantity1;
+                document.getElementById('amount1').innerText = amount1;
+                // Display other items similarly
+            </script>
+            
+    </body>
+</html>

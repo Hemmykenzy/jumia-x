@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <style type="text/css">
+
+           
+       
+
+
+* {
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+      display: grid;
+      grid-template-columns: 305px 1fr;
+      gap: 10px;
+      margin: 0 auto;
+      padding: 10px;
+      max-width: 1400px;
+      min-height: 100vh;
+  }
+
+  aside,
+  main {
+      border: 1px solid grey;
+      padding: 20px;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      text-align: center;
+  }
+
+
+ 
+        </style>
+    </head>
+
+
+
+
+
+    <body>
+       <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+        <a href="index.html"><img src="images/h2.jpg" width="30px"
+            height="30px" align="right"/></a>
+            <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+            <a href="Sign In.html"> <img src="images/pers.jpg" width="30px" height="30px" align="right"/> </a>
+        <img src="images/jm3.jpg" width="450" height="90" /><center> <h2>SHOPPING CART</h2></center>
+       <center> <h3>Fashion</h3></center>
+      
+       
+       
+        <div class="container">
+            <aside>
+                <aside>
+                    <h2>Product Basket</h2>
+                    <ul id="cart"></ul>
+                    <div id="total">Total Amount: ₦0</div><br>
+                    <center><a href="CART.html? item1=ID1&quantity1=2&amount1=20&item2=ID2&quantity2=1&amount2=15">
+                        <button>Checkout</button></a></center>
+
+                </aside>
+            </aside>
+            <main>
+                <div class="cards">
+                    <div class="card" id="ite">
+                        <img src="fashion/1.jpg" width="200" height="200" >
+                        <h4>Full Touch Smart Watch</h4>
+                        <p><mark></span>₦<span class="price">10450</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea Android 12">
+                        <img src="fashion/2.jpg" width="200" height="200" alt="Cidea Android 12">
+                        <h4>Smart Watch for Sports</h4>
+                        <p><mark></span>₦<span class="price">10279</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone XR" >
+                        <img src="fashion/3.jpg" width="200" height="200" alt="Apple IPhone XR">
+                        <h4>Waterproof Full Touch Smart Watch</h4>
+                        <p><mark></span>₦<span class="price">16150</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Spark 20">
+                        <img src="fashion/4.jpg" width="200" height="200" alt="Tecno Spark 20"><br><p></p>
+                        <h4>Smart Watch for Android</h4>
+                        <p><mark></span>₦<span class="price">11628</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div> 
+                    <div class="card" Cidea 8>
+                        <img src="fashion/5.jpg" width="200" height="200" >
+                        <h4>Quartz Wrist watch Led</h4>
+                        <p><mark></span>₦<span class="price">1650</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea 8">
+                        <img src="fashion/6.jpg" width="200" height="200" a>
+                        <h4>Fashion Rhinestone Wristwatch</h4>
+                        <p><mark></span>₦<span class="price">4990</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="IPhone 6">
+                        <img src="fashion/7.jpg" width="200" height="200" >
+                        <h4>2 in 1 Fashion Rhinestone Wristwatch</h4>
+                        <p><mark></span>₦<span class="price">4990</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 11">
+                        <img src="fashion/8.jpg" width="200" height="200">
+                        <h4>Lady Quartz Watch</h4>
+                        <p><mark></span>₦<span class="price">4742</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Cidea C idea">
+                        <img src="fashion/9.jpg" width="200" height="200">
+                        <h4>Diamond Quartz Watch</h4>
+                        <p><mark></span>₦<span class="price">7390</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Pop 8">
+                        <img src="fashion/10.jpg" width="200" height="200" >
+                        <h4>Leather Wristwatch & Bracelet</h4>
+                        <p><mark></span>₦<span class="price">6999</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple Iphone 13 Pro Max">
+                        <img src="fashion/a.jpg" width="200" height="200" >
+                        <h4>Men Polo Shirt</h4>
+                        <p><mark></span>₦<span class="price">13000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea Adult 7">
+                        <img src="fashion/b.jpg" width="200" height="200" >
+                        <h4>Men Smart Jeans</h4>
+                        <p><mark></span>₦<span class="price">9500</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Discover Note 9 Plus">
+                        <img src="fashion/c.jpg" width="200" height="200" >
+                        <h4>Ladies Unique Bag</h4>
+                        <p><mark></span>₦<span class="price">2999</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Z Fold">
+                        <img src="fashion/d.jpg" width="200" height="200" >
+                        <h4>Women Bags Backpacks</h4>
+                        <p><mark></span>₦<span class="price">4991</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel It 5606">
+                        <img src="fashion/e.jpg" width="200" height="200" >
+                        <h4>Women Totes Vintage Bag</h4>
+                        <p><mark></span>₦<span class="price">2990</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="XIAOMI Redmi Note 13">
+                        <img src="fashion/f.jpg" width="200" height="200" >
+                        <h4>Men's Underwear</h4>
+                        <p><mark></span>₦<span class="price">3990</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Note 20">
+                        <img src="fashion/g.jpg" width="200" height="200" >
+                        <h4>3 in 1 Men's Singlet</h4>
+                        <p><mark></span>₦<span class="price">4800</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel S24" >
+                        <img src="fashion/h.jpg" width="200" height="200" >
+                        <h4>Women Bow Panel Dress</h4>
+                        <p><mark></span>₦<span class="price">11110</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 15 Pro Max">
+                        <img src="fashion/i.jpg" width="200" height="200" >
+                        <h4>Diamond Gold Watch</h4>
+                        <p><mark></span>₦<span class="price">8650</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/j.jpg" width="200" height="200" >
+                        <h4>Men 2 in 1 Shot Sleeve</h4>
+                        <p><mark></span>₦<span class="price">7850</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/k.jpg" width="200" height="200" >
+                        <h4>Girl's Summer Short</h4>
+                        <p><mark></span>₦<span class="price">3633</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/l.jpg" width="200" height="200" >
+                        <h4>Men's Turtleneck</h4>
+                        <p><mark></span>₦<span class="price">6000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/m.jpg" width="200" height="200" >
+                        <h4>Woman Regular Trousers</h4>
+                        <p><mark></span>₦<span class="price">6489</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/n.jpg" width="200" height="200" >
+                        <h4></h4>
+                        <p><mark>Trendyol Dress</span>₦<span class="price">36136</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/o.jpg" width="200" height="200" >
+                        <h4>Addidas Core Sneakers</h4>
+                        <p><mark></span>₦<span class="price">25032</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/p.jpg" width="200" height="200" >
+                        <h4>Woman Short Sleeve T-shirt</h4>
+                        <p><mark></span>₦<span class="price">4050</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/q.jpg" width="200" height="200" >
+                        <h4>Plane Unisex T-Shirt</h4>
+                        <p><mark></span>₦<span class="price">12500</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="fashion/r.jpg" width="200" height="200" >
+                        <h4>Danami Women Crop Hoody</h4>
+                        <p><mark></span>₦<span class="price">7999</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+    
+    
+            </main>
+        </div>
+        
+        <center><a href="#"><h2>BACK TO TOP</h2></a></center>
+            
+
+
+        <script>
+
+const cards = document.querySelectorAll('.card');
+        const cart = document.getElementById('cart');
+        const totalElement = document.getElementById('total'); 
+        const selectedItems = {};
+
+        function handleCardClick(event) {
+            const card = event.currentTarget;
+            const itemId = card.id;
+            const itemName = card.querySelector('h4').textContent;
+            const itemPrice = parseFloat(card.querySelector('.price').textContent); 
+
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            } else {
+                selectedItems[itemId] = {
+                    name: itemName,
+                    price: itemPrice,
+                    count: 1,
+                };
+            }
+
+            updateCart();
+        }
+
+        function updateCart() {
+            cart.innerHTML = '';
+            let total = 0; 
+
+            for (const itemId in selectedItems) {
+                const item = selectedItems[itemId];
+                const listItem = document.createElement('li');
+                const quantityContainer = document.createElement('div'); 
+                const quantityText = document.createElement('span'); 
+                const addButton = document.createElement('button');
+                const subtractButton = document.createElement('button');
+
+                addButton.textContent = '+';
+                subtractButton.textContent = '-';
+
+                quantityText.textContent = item.count; 
+
+                addButton.addEventListener('click', () => {
+                    addItem(itemId);
+                });
+
+                subtractButton.addEventListener('click', () => {
+                    removeItem(itemId);
+                });
+
+                const hr = document.createElement('hr');
+
+                quantityContainer.appendChild(subtractButton); 
+                quantityContainer.appendChild(quantityText); 
+                quantityContainer.appendChild(addButton); 
+                quantityContainer.appendChild(hr); 
+
+                listItem.textContent = `${item.name} - ₦${item.price * item.count}`;
+                listItem.appendChild(quantityContainer); 
+                cart.appendChild(listItem);
+
+                total += item.price * item.count; 
+            }
+
+            totalElement.textContent = `Total Amount: ₦${total.toFixed(2)}`; 
+        }
+
+        function addItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            }
+            updateCart();
+        }
+
+        function removeItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count--;
+                if (selectedItems[itemId].count <= 0) {
+                    delete selectedItems[itemId];
+                }
+            }
+            updateCart();
+        }
+
+        cards.forEach((card) => {
+            card.addEventListener('click', handleCardClick);
+        });
+
+
+
+
+      
+
+        </script>
+    </body>
+</html>

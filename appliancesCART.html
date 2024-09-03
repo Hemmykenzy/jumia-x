@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <style type="text/css">
+
+           
+       
+
+
+* {
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+      display: grid;
+      grid-template-columns: 305px 1fr;
+      gap: 10px;
+      margin: 0 auto;
+      padding: 10px;
+      max-width: 1400px;
+      min-height: 100vh;
+  }
+
+  aside,
+  main {
+      border: 1px solid grey;
+      padding: 20px;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      text-align: center;
+  }
+
+
+ 
+        </style>
+    </head>
+
+    <body>
+       <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+        <a href="index.html"><img src="images/h2.jpg" width="30px"
+            height="30px" align="right"/></a>
+            <img src="images/ws.jpg" width="30px" height="30px" align="right"/>
+            <a href="Sign In.html"> <img src="images/pers.jpg" width="30px" height="30px" align="right"/> </a>
+        <img src="images/jm3.jpg" width="450" height="90" /><center> <h2>SHOPPING CART</h2></center>
+       <center> <h3>Appliances</h3></center>
+      
+       
+       
+        <div class="container">
+            <aside>
+                <aside>
+                    <h2>Product Basket</h2>
+                    <ul id="cart"></ul>
+                    <div id="total">Total Amount: ₦0</div><br>
+                    <center><a href="CART.html? item1=ID1&quantity1=2&amount1=20&item2=ID2&quantity2=1&amount2=15">
+                        <button>Checkout</button></a></center>
+
+                </aside>
+            </aside>
+            <main>
+                <div class="cards">
+                    <div class="card" id="Hisense MOMMI Microwave">
+                        <img src="appliances/appliances/1.jpg" width="200" height="200" >
+                        <h4>Hisense MOMMI Microwave</h4>
+                        <p><mark></span>₦<span class="price">148783</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cepsa 12.5kg Gas Cylinder">
+                        <img src="appliances/appliances/2.jpg" width="200" height="200" alt="Cidea Android 12">
+                        <h4>Cepsa 12.5kg Gas Cylinder</h4>
+                        <p><mark></span>₦<span class="price">79199</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone XR" >
+                        <img src="appliances/appliances/3.jpg" width="200" height="200" alt="Apple IPhone XR">
+                        <h4>LG 1.5HP Gencool-Airconditioner</h4>
+                        <p><mark></span>₦<span class="price">480000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Spark 20">
+                        <img src="appliances/appliances/4.jpg" width="200" height="200" alt="Tecno Spark 20"><br><p></p>
+                        <h4>Scanfrost Air conditioner</h4>
+                        <p><mark></span>₦<span class="price">438900</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div> 
+                    <div class="card" Cidea 8>
+                        <img src="appliances/appliances/5.jpg" width="200" height="200" >
+                        <h4>Breakfast Maker machine</h4>
+                        <p><mark></span>₦<span class="price">107320</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea 8">
+                        <img src="appliances/appliances/6.jpg" width="200" height="200" a>
+                    <h4>Sokany Breakfast Maker machine</h4>
+                        <p><mark></span>₦<span class="price">55000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="IPhone 6">
+                        <img src="appliances/appliances/7.jpg" width="200" height="200" >
+                        <h4>Evaporative Air Cooler</h4>
+                        <p><mark></span>₦<span class="price">26345</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 11">
+                        <img src="appliances/appliances/8.jpg" width="200" height="200">
+                        <h4>Nexus 4 Burner</h4>
+                        <p><mark></span>₦<span class="price">129900</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Cidea C idea">
+                        <img src="appliances/appliances/9.jpg" width="200" height="200">
+                        <h4>Hisense Microwave</h4>
+                        <p><mark></span>₦<span class="price">65900</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Tecno Pop 8">
+                        <img src="appliances/appliances/a.jpg" width="200" height="200" >
+                        <h4>12.5kg Gas Cylinder</h4>
+                        <p><mark></span>₦<span class="price">79199</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple Iphone 13 Pro Max">
+                        <img src="appliances/appliances/b.jpg" width="200" height="200" >
+                        <h4>Microwave Oven</h4>
+                        <p><mark></span>₦<span class="price">105000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Cidea Adult 7">
+                        <img src="appliances/appliances/c.jpg" width="200" height="200" >
+                        <h4>Nexus Standing Fan</h4>
+                        <p><mark></span>₦<span class="price">24500</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Discover Note 9 Plus">
+                        <img src="appliances/appliances/d.jpg" width="200" height="200" >
+                        <h4>Hisense Washing Machine</h4>
+                        <p><mark></span>₦<span class="price">362972</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Z Fold">
+                        <img src="appliances/appliances/e.jpg" width="200" height="200" >
+                        <h4>Polystar electric dry iron</h4>
+                        <p><mark></span>₦<span class="price">11415</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel It 5606">
+                        <img src="appliances/appliances/f.jpg" width="200" height="200" >
+                        <h4>Economy Kitchen Bundle</h4>
+                        <p><mark></span>₦<span class="price">41900</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="XIAOMI Redmi Note 13">
+                        <img src="appliances/appliances/g.jpg" width="200" height="200" >
+                        <h4>TCL Washing Machine</h4>
+                        <p><mark></span>₦<span class="price">251900</mark></p>
+                        <button>Add to cart</button><br><p></p>
+                    </div>
+                    <div class="card" id="Samsung Galaxy Note 20">
+                        <img src="appliances/appliances/h.jpg" width="200" height="200" >
+                        <h4>MIni Portable Air-Conditioner</h4>
+                        <p><mark></span>₦<span class="price">39150</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Itel S24" >
+                        <img src="appliances/appliances/i.jpg" width="200" height="200" >
+                        <h4>Cloud Energy Standing Fan</h4>
+                        <p><mark></span>₦<span class="price">42999/mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id="Apple IPhone 15 Pro Max">
+                        <img src="appliances/appliances/j.jpg" width="200" height="200" >
+                        <h4>Hisense Air-Conditioner</h4>
+                        <p><mark></span>₦<span class="price">348500</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+             
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="appliances/appliances/l.jpg" width="200" height="200" >
+                        <h4>Haier Thermocool Refrigerator</h4>
+                        <p><mark></span>₦<span class="price">365000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card" id=""XIAOMI Redmi Note 13 Pro>
+                        <img src="appliances/appliances/m.jpg" width="200" height="200" >
+                        <h4>Haier Thermocool Refrigerator</h4>
+                        <p><mark></span>₦<span class="price">345000</mark></p>
+                        <button>Add to cart</button>
+                    </div>
+                   
+                </div>
+    
+    
+            </main>
+        </div>
+        
+        <center><a href="#"><h2>BACK TO TOP</h2></a></center>
+            
+
+
+        <script>
+
+const cards = document.querySelectorAll('.card');
+        const cart = document.getElementById('cart');
+        const totalElement = document.getElementById('total'); 
+        const selectedItems = {};
+
+        function handleCardClick(event) {
+            const card = event.currentTarget;
+            const itemId = card.id;
+            const itemName = card.querySelector('h4').textContent;
+            const itemPrice = parseFloat(card.querySelector('.price').textContent); 
+
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            } else {
+                selectedItems[itemId] = {
+                    name: itemName,
+                    price: itemPrice,
+                    count: 1,
+                };
+            }
+
+            updateCart();
+        }
+
+        function updateCart() {
+            cart.innerHTML = '';
+            let total = 0; 
+
+            for (const itemId in selectedItems) {
+                const item = selectedItems[itemId];
+                const listItem = document.createElement('li');
+                const quantityContainer = document.createElement('div'); 
+                const quantityText = document.createElement('span'); 
+                const addButton = document.createElement('button');
+                const subtractButton = document.createElement('button');
+
+                addButton.textContent = '+';
+                subtractButton.textContent = '-';
+
+                quantityText.textContent = item.count; 
+
+                addButton.addEventListener('click', () => {
+                    addItem(itemId);
+                });
+
+                subtractButton.addEventListener('click', () => {
+                    removeItem(itemId);
+                });
+
+                const hr = document.createElement('hr');
+
+                quantityContainer.appendChild(subtractButton); 
+                quantityContainer.appendChild(quantityText); 
+                quantityContainer.appendChild(addButton); 
+                quantityContainer.appendChild(hr); 
+
+                listItem.textContent = `${item.name} - ₦${item.price * item.count}`;
+                listItem.appendChild(quantityContainer); 
+                cart.appendChild(listItem);
+
+                total += item.price * item.count; 
+            }
+
+            totalElement.textContent = `Total Amount: ₦${total.toFixed(2)}`; 
+        }
+
+        function addItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count++;
+            }
+            updateCart();
+        }
+
+        function removeItem(itemId) {
+            if (selectedItems[itemId]) {
+                selectedItems[itemId].count--;
+                if (selectedItems[itemId].count <= 0) {
+                    delete selectedItems[itemId];
+                }
+            }
+            updateCart();
+        }
+
+        cards.forEach((card) => {
+            card.addEventListener('click', handleCardClick);
+        });
+
+
+
+
+      
+
+        </script>
+    </body>
+</html>
